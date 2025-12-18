@@ -1,0 +1,294 @@
+body{
+	background-color: maroon;
+}
+
+nav{
+	background-color: black;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+nav a{
+	text-decoration: none;
+	text-align: center;
+	font-family: "tt-modernoir";
+	font-size: 40px;
+	color: white;
+	display: block;
+	padding: 10px;
+}
+
+nav a:hover{
+	background-color: grey;
+}
+
+@media screen and (min-width: 768px){
+	nav ul{
+		display: flex;
+		justify-content: flex-end;
+	}
+
+}
+
+ul#piano {
+    width: 1500px;  /* fixed width */
+    height: 230px;
+    list-style: none; /* remove bullets */
+}
+
+ul#piano li {
+    list-style: none;
+    width: 40px;  /* fixed width for each white key */
+    height: 100%;
+    float: left;
+    position: relative;
+    font-family: "tt-modernoir", sans-serif;
+    font-size: 40px;
+}
+
+.black-background{
+	width: 1405px;
+	background-color: black;
+	color: white;
+	font-family: "tt-modernoir", sans-serif;
+	font-size: 100px; 
+	z-index: 1;
+	padding: 20px
+}
+
+.white {
+  width: 110%;
+  height: 100%;
+  background: white;
+  border: 1px solid grey;
+  position: relative;   /* needed for absolute positioning of span */
+  text-align: center;
+}
+
+.white span {
+  position: absolute;
+  bottom: 5px;          /* distance from the bottom */
+  left: 0;               /* stretch across the parent */
+  width: 100%;
+  display: block;
+  font-weight: bold;
+  pointer-events: none;  /* so it doesn’t interfere with clicks */
+}
+
+.white:hover {
+	color: maroon;
+}
+
+.black {
+  position: absolute;
+  top: 0;
+  width: 70%;
+  height: 140px;
+  background: black;
+  z-index: 10;
+  left: 70%; /* position it over the right side of the white key */
+}
+
+.black span {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+  font-weight: regular;
+  color: #fff;
+}
+
+.black:hover {
+	color: maroon;
+}
+
+
+
+.weights-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: beige;
+	gap: 20px;
+	font-size: 80px;
+}
+
+
+.paragraph6 {
+	color: maroon;
+	z-index: 1;
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
+
+.paragraph1 {
+ 	color: maroon;
+ 	z-index: 1;
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.paragraph2 {
+	color: maroon;
+	z-index: 1;
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.paragraph3 {
+	color: maroon;
+	z-index: 1;
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.paragraph4 {
+ 	color: maroon;
+	z-index: 1;
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.paragraph5 {
+	color: maroon;
+	z-index: 1;
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+#scale-container {
+	display: flex;
+	justify-content: center;
+	font-family: "tt-modernoir", sans-serif;
+	margin-top: 50px;
+	gap: 20px;
+}
+
+figure {
+all: unset;
+}
+
+figcaption {
+	font-size: 12px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#Lettert {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	justify-content: left;
+	font-size: 160px;
+	color: beige;
+}
+
+#Lettert1 {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	justify-content: left;
+	font-size: 160px;
+	color: beige;
+}
+
+#Letter- {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: left;
+	font-size: 160px;
+	color: beige;
+}
+
+#Letterm {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: left;
+	font-size: 160px;
+	color: beige;
+}
+
+#Lettero {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: left;
+	font-size: 160px;
+	color: beige;
+}
+
+#Letterd {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	justify-content: left;
+	font-size: 160px;
+	color: beige;
+}
+
+#Lettere {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	justify-content: left;
+	font-size: 160px;
+	color: beige;
+}
+
+#Letterr {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	justify-content: left;
+	font-size: 160px;
+	color: beige;
+}
+
+#Lettern {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	justify-content: left;
+	font-size: 160px;
+	color: beige;
+}
+
+#Lettero {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	justify-content: left;
+	font-size: 160px;
+	color: beige;
+}
+
+#Letteri {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	justify-content: left;
+	font-size: 160px;
+	color: beige;
+}
+
+#Letterr1 {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	justify-content: left;
+	font-size: 160px;
+	color: beige;
+}
+
+

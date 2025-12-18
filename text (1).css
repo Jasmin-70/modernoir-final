@@ -1,0 +1,99 @@
+body {
+	background-color: maroon;
+	display: flex;
+	justify-content: center; 
+}
+
+div{
+	background-color: beige;
+	max-width: 980px;
+	gap: 10px;
+	padding: 20px;
+	border: solid 2px;
+	margin: 20px;
+}
+
+p{
+	font-family: "tt-modernoir", sans-serif;
+	font-size: 230px;
+	color:white;
+}
+
+h1 {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 400;
+	font-size: 70px;
+	font-style: normal;
+	justify-content: center;
+	left: 38%;
+	line-height: 70px;
+	color: maroon;
+	padding: 30px;
+}
+
+#paragraph1 {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	justify-content: left;
+	font-size: 24px;
+	color: maroon;
+	line-height: 25px;
+	padding: 30px;
+}
+
+#paragraph2 {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: left;
+	font-size: 32px;
+	color: maroon;
+	line-height: 35px;
+	padding: 30px;
+}
+
+#paragraph3 {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	justify-content: left;
+	font-size: 64px;
+	color: maroon;
+	line-height: 60px;
+	padding: 30px;
+}
+
+#paragraph4 {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	justify-content: left;
+	font-size: 96px;
+	color: maroon;
+	line-height: 80px;
+	padding: 30px;
+}
+
+#paragraph5 {
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	justify-content: left;
+	font-size: 110px;
+	color: maroon;
+	padding: 30px;
+}
+
+a {
+	font-family: "tt-modernoir", sans-serif;
+	font-size: 45px;
+	font-weight: 400
+	color:maroon;
+	display: flex;
+	justify-content: cener;
+}
+
+
+
+

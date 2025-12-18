@@ -1,0 +1,172 @@
+body{
+	background-color: maroon;
+}
+
+
+#first_box {
+    border: 2px solid black;
+    padding: 20px;
+    position: relative;
+    border-color: beige;
+    height: 810px;
+}
+
+/* Inner divs */
+#second_box {
+    border: 2px solid black;
+    padding: 20px;
+    border-color: beige;
+    height: 765px;
+}
+
+#third_box {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-color: beige;
+    height: 660px;
+}
+
+div{
+	font-family: "tt-modernoir";
+	font-size: 220px;
+	font-weight: demi-bold;
+	color: beige;
+	justify-content: center;
+}
+
+/* Corner boxes */
+#smallbox1 {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 90px;
+    height: 90px;
+  	border: 2px solid beige;
+}
+
+#smallbox2 {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 90px;
+    height: 90px;
+    border: 2px solid beige;
+}
+
+#smallbox3 {
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    width: 90px;
+    height: 90px;
+    border: 2px solid beige;
+}
+
+#smallbox4 {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 90px;
+    height: 90px;
+    border: 2px solid beige;
+}
+
+
+
+nav{
+	background-color: black;
+	height: 80px;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+nav a{
+	text-decoration: none;
+	text-align: center;
+	font-family: "tt-modernoir";
+	font-size: 40px;
+	color: white;
+	display: block;
+	padding: 10px;
+}
+
+nav a:hover{
+	background-color: darkgrey;
+}
+
+@media screen and (min-width: 768px){
+	nav ul{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	nav li{
+		flex: 1;
+	}
+}
+
+
+.text-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+	font-size: 80px;
+	padding: 200px;
+	justify-content: center;
+	margin: 100px;
+	border: solid 5px;
+	border-color: maroon;
+}
+
+p{
+	font-size: 35px;
+	font-family: "montserrat", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: center;
+	display: flex;
+	color: beige;
+	font-kerning: 45;
+}
+
+
+
+#paragraph2{
+	position: relative;
+	top: 750px;
+  	left: 160px;
+	font-family: "montserrat", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: center;
+	color: black;
+}
+
+#paragraph3{
+	position: relative;
+	top: 790px;
+  	left: 160px;
+	font-family: "montserrat", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: center;
+	color: beige;
+}
+
+
+
+
+
+
+
+
+
+
+
